@@ -29,8 +29,23 @@
     <link rel="stylesheet" href="libs/datepicker/jquery-ui.1.12.1.css">
     <script src="libs/datepicker/jquery-ui.1.12.1.js"></script>
     <script src="libs/datepicker/jquery-351.min.js" type="text/javascript"></script>
+    <!-- JS -->
+    <script src="js/funciones.js" type="text/javascript"></script>
+
 </head>
 <body>
-    
+    <header class="sticky-top">
+        <img src="img/logo.png" class="img-fluid"></img>
+        <div class="container-fluid border bg-secondary">
+            <div class="col-md-12 pt-4 ">
+                    <div class="row justify-content-center">
+                    <div id="acaBot1" role="button" class="f-l border  col-md-3 globo">INICIO</div>
+                    <div id="acaBot2" role="button" class="f-l border gris col-md-3 globo">PRODUCTOS</div>
+                    <div id="acaBot3" role="button" class="f-l border gris col-md-3 globo">NOSOTROS</div>
+                    <div id="acaBot4" role="button" class="f-l border gris col-md-3 globo">CONTACTO</div>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
